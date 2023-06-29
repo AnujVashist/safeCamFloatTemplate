@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+/* GLOBAL CLASSES */
+.primary-color{
+    color: #2878EB;
+}
+.secondary-color{
+    color: #F14D5D;
+}
+.text-white{
+    color: #ECF4FF;
+}
+.dark-color{
+    color:#120F2D;
+}
+/* <!-- Navbar Starts from here  --> */
+
+.navbar{
+    clear: both;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    padding: 10px 30px;
+    font-size: 24px;
+}
+.menu{
+    float: right;
+    margin-top: 5px;
+}
+.menu>a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu>a.btn-ph{
+    background-color: #F14D5D;
+    padding: 40px;
+    line-height: 60px;
+}
+/* <!-- Navbar ends here  --> */
+
+/* <!-- Main starts form here --> */
+.background-img{
+    background-image: url(images/carousel-3.jpg);
+    background-color: #120f2e98;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 220px 0;
+}
+.text-main>span{
+    font-size: 28px;
+    font-weight: 400;
+}
+.text-main>h1{
+    font-size: 72px;
+    font-weight: 700;
+    padding: 10px;
+}
+.button1{
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #2878EB;
+    border: none;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.button2{
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #F14D5D;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* <!-- About starts form here --> */
+.about{
+    padding: 70px 90px;
+    clear: both;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+.about-img{
+    width: 40%;
+    float: left;
+}
+.about-img>img{
+    width: 95%;
+    height: 512px;
+}
+.about-data{
+    width: 60%;
+    float: right;
+}
+.about-data>span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-data>h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-data>h4{
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    color: #6B6A75;
+    padding: 20px 0;
+}
+.about-data>p{
+    color: #6B6A75
+}
+.about-icons{
+    width: 100%;
+    margin-top: 20px;
+}
+.icon1{
+    width: 47%;
+    background-color: #2878EB;
+    padding: 50px 65px 70px 65px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 24px;
+    border-bottom: 5px solid #F14D5D;
+}
+.icon1>i{
+    font-size:45px;
+    margin-bottom: 10px;
+}
+.icon1>span{
+    font-size: 19px;
+    font-weight: 500;
+}
+.icon2{
+    width: 47%;
+    background-color: #F14D5D;
+    padding: 50px 65px 70px 65px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 5px solid #2878EB;
+}
+.icon2>i{
+    font-size:45px;
+    margin-bottom: 10px;
+}
+.icon2>span{
+    font-size: 19px;
+    font-weight: 500;
+}
+/* <!-- About ends here --> */
+
+/* <!-- Services starts from here --> */
+.container{
+    padding: 50px 0 30px 0 ;
+}
+.services-data{
+    text-align: center;
+}
+.services-data>span{
+    line-height: 50px;
+    font-size: 20px;
+}
+.services-data>h1{
+    font-size: 34px;
+}
+.services-box{
+    margin:30px 100px;
+}
+.sevices-box1{
+    width: 30%;
+    display: inline-block;
+    background-color: #dddafd;
+    padding: 5px 40px;
+    margin: 15px;
+    border-bottom: 5px solid #2878EB;
+}
+.lord-icon{
+    position: relative;
+    right: 40px;
+    width: 85%;
+    height: 250px;
+}
+.sevices-box1>span{
+    font-weight: 600;
+}
+.sevices-box1>h3{
+    line-height: 36px;
+    font-size: 26px;
+}
+.sevices-box1>a{
+    line-height:36px ;
+    text-decoration: none;
+}
+
+/* <!-- Services ends here --> */
+
+/* <!-- Pricing starts from here --> */
+
+.pricing{
+    text-align: center;
+    margin: 0 90px 60px 90px;
+}
+.pricing>span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.pricing>h1{
+    margin: 2px 10px 50px 10px;
+}
+
+.pricing-plans{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #2878EB;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.plans{
+    background-color: #2878EB;
+    padding: 50px 0;
+}
+.plans>h1>sup{
+    font-size: 16px;
+}
+.plans>h1>sub{
+    font-size: 16px;
+}
+
+.plan1>p{
+    line-height: 65px;
+    border-bottom: 1px solid #ECF4FF;
+}
+
+.plan-btn{
+    margin-top: 30px;
+}
+.plan-btn>a{
+    background-color: #2878EB;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+.pricing-plans1{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #F14D5D;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.plans1{
+    background-color: #F14D5D;
+    padding: 50px 0;
+}
+.plans1>h1>sup{
+    font-size: 16px;
+}
+.plans1>h1>sub{
+    font-size: 16px;
+}
+.plan-btn1{
+    margin-top: 30px;
+}
+.plan-btn1>a{
+    background-color: #F14D5D;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+/* <!-- Pricing ends here --> */
+
+/* <!-- Main2 starts from here --> */
+
+.background-img2{
+    background-image: url(images/carousel-2.jpg);
+    background-color: #0e0b2b80;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 120px 0;
+}
+.text-main2>p{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.text-main2>h1{
+    font-size: 52px;
+    font-weight: 700;
+    padding: 10px;
+}
+/* <!-- Main2 ends here --> */
+
+/* <!-- Team starts from here --> */
+.team{
+    text-align: center;
+    margin: 80px;
+}
+.team>span{
+    line-height: 50px;
+    font-size: 18px;
+}
+.team-member{
+    width: 30%;
+    display: inline-block; 
+    margin: 16px;
+}
+.team-m1{
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+.team-member1{
+    width: 90%;
+}
+.team-member1>img{
+    width: 100%;
+    height: 350px;
+}
+.team-icon{
+    width: 10%;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: #ffffff;
+}
+.team-icon>a{
+    display: block;
+    color: #585454;
+    line-height: 36px;
+    border: 1px solid #F14D5D;
+    margin: 1px;
+}
+.team-text{
+    background-color: #2878EB;
+    padding: 50px;
+}
+.team-text>h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.team-text>span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* <!-- Team ends here --> */
+
+/* <!-- Testimonial starts from here --> */
+.testimonial{
+    padding: 50px 0;
+}
+.testimonial-data{
+    text-align: center;
+}
+.testimonial-data>span{
+    line-height: 50px;
+    font-size: 18px;
+}
+.reviews{
+    margin: 5px 30px;
+}
+.reviews-content{
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+}
+.reviews-content>img{
+    border-style: none;
+    border-radius: 100%;
+    position: relative;
+    top: 55px;
+    left: 135px;
+    width: 30%;
+}
+.reviews-data{
+    background-color:#9f9fa3 ;
+    padding: 65px 70px;
+    text-align: center;
+}
+.reviews-data>h3{
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.reviews-data1{
+    background-color:#2878EB;
+    padding: 65px 70px;
+    text-align: center;
+}
+
+.reviews-data1>h3{
+    line-height: 50px;
+    font-weight: 700;
+}
+
+/* <!-- Testimonial ends here --> */
+
+/* <!-- Blogs starts from here --> */
+.blogs-data{
+    text-align: center;
+    margin: 30px;
+}
+.blogs-data>span{
+    line-height: 50px;
+    font-size: 18px;
+}
+.main-blogs{
+    margin: 40px 60px 40px 140px;
+}
+.blog-posts{
+    width: 45%;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+.blog-posts>img{
+    width: 100%;
+}
+.blog-content{
+    padding: 60px 20px;
+    background-color: #2878EB;
+}
+.blog-content>h2{
+    font-size: 30px;
+}
+.blog-date{
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    background-color: #F14D5D;
+    padding: 11px;
+}
+/* <!-- Blogs ends here --> */
+
+/* <!-- Footer starts from here --> */
+.footer{
+    background-color: #120F2D;
+}
+.footer-main{
+    margin: 60px;
+}
+.quick-link, .popular-link, .get-in-touch, .follow-us{
+    width: 20%;
+    display: inline-block;
+    margin: 50px 28px;
+}
+.quick-link>a, .popular-link>a{
+    display:block;
+    padding: 5px 5px 20px 0px;
+    text-decoration: none;
+}
+.socialmediaicons>li.socialmediaicon{
+    display: inline-block;
+}
+.get-in-touch{
+    position: relative;
+    top: -110px;
+}
+.follow-us{
+    position: relative;
+    top: -165px;
+}
+.footer-icons{
+    list-style: none;
+    line-height: 30px;
+}
+.footericon>span>i{
+    padding-right: 10px;
+}
+.socialmediaicon{
+    background-color: #2878EB;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 8px;
+}
+.socialmediaicon.facebook{
+    background-color: #2878EB;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 8px 13px 8px 13px;
+}
+
+.footer-mail{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.email{
+    width: 45%;
+    padding: 25px 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.button{
+    width: 15%;
+    border-style: none;
+    padding: 27px 0;
+    background-color: #2878EB;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.footer-end{
+    /* float: left; */
+    padding: 30px 0;
+    background-color: #2878EB;
+}
+.footer-end>p{
+    margin-left: 20px;
+}
+
+/* <!-- Footer ends here --> */
+
+/* <!-- About page starts from here --> */
+.main-about{
+    background-image: url(images/carousel-1.jpg);
+    opacity: 1;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.main-about>h1{
+    font-size: 80px;
+}
+.main-about>span{
+    font-size: 20px;
+}
+/* <!-- Contact form page starts from here --> */
+.contact-form{
+    margin: 120px;
+}
+
+.contact-data{
+    text-align: center;
+}
+.contact-data>span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.contact-data>h1{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.contact-page{
+    padding: 10px 0 10px 10px;
+    float: left;
+    width: 47%;
+    background-color: grey;
+
+}
+.inputfield{
+    width: 48%;
+    display: inline-block;
+}
+.inputfield-sub{
+    width: 99.5%;
+}
+
+input,textarea{
+    width: 95%;
+    padding: 6px 12px;
+    margin: 10px;
+}
+.contact-location{
+    float: right;
+    background-color: #120F2D;
+    width: 40%;
+}
+/* <!-- Contact form page ends here --> */
+
+
+
+
+
+
+

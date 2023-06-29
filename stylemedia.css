@@ -1,0 +1,460 @@
+@media (max-width:400px){
+    .navbar{
+        clear: both;
+        overflow: hidden;
+        width: 100%;
+    }
+    .logo {
+        padding: 2px 15px;
+    font-size: 25px;
+    float: none;
+    text-align: center;
+    }
+    .menu{
+        float: none;
+        margin-top: 5px;
+    }
+    .menu>a{
+        padding: 2px;
+        margin: 0px 7px;
+    }
+    .menu>a.btn-ph{
+        padding: 10px;
+        line-height: 20px;
+        float: none;
+        display: block;
+        margin: 10px 50px;
+        text-align: center;
+    
+    }
+    .background-img{
+        padding: 80px 0;
+    }
+    .text-main>span{
+        font-size: 20px;
+    }
+    .text-main>h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .button1{
+        margin-right: 10px;
+    }
+    .about{
+        padding: 5px 3px;
+    }
+    .about-img{
+        width: 100%;
+        float: none;
+    }
+    .about-img>img{
+        width: 95%;
+        height: 270px;
+    }
+    .about-data{
+        width: 100%;
+        float: none;
+    }
+    .about-data>span{
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .about-data>h1{
+        font-size:26px;
+    }
+    .about-data>h4{
+        font-size: 18px;
+    }
+    .icon1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .icon2{
+        width: 100%;
+    }
+
+    .container{
+        padding: 50px 0 30px 0 ;
+    }
+    .services-box{
+        margin:30px 50px;
+    }
+    .sevices-box1{
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .pricing{
+        margin: 0 40px 10px 40px;
+    }
+    .pricing-plans{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .plan-btn>a{
+        padding: 12px 24px;
+    }
+    .plans{
+        padding: 25px 0;
+    }
+    .plan1>p{
+        line-height: 35px;
+    }
+    .plans1{
+        padding: 25px 0;
+    }
+    .pricing-plans1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .plan-btn1>a{
+        padding: 12px 24px;
+    }
+
+    .background-img2{
+        padding: 40px 30px;
+    }
+    .text-main2>h1{
+        font-size: 25px;
+    }
+    .text-main2>p{
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .team{
+        margin: 20px;
+    }
+    .team>span{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .team>h1{
+        line-height: 30px;
+        font-size: 28px;
+    }
+    .team-member{
+        width: 100%;
+        margin: 25px 10px 0px 0px;
+    }
+    .team-text{
+        padding: 20px;
+    }
+
+    .testimonial{
+        padding: 20px 0;
+    }
+    .testimonial-data>span{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .testimonial-data>h1{
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    .reviews{
+        margin: 5px 5px;
+    }
+    .reviews-content {
+        width: 85%;
+        margin: 7px 0px 0 30px;
+    }
+    .reviews-content>img{
+        left: 115px;
+    }
+    .blog-content > h2 {
+        font-size: 23px;
+    }
+
+    .blogs-data{
+        margin: 15px;
+    }
+    .blogs-data>span{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .blogs-data>h1{
+        font-size: 26px;
+    }
+    .main-blogs{
+        margin: 10px 35px ;
+    }
+    .blog-posts{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-main{
+        margin: 1px;
+        height: 400px;
+    }
+    .quick-link, .popular-link, .get-in-touch, .follow-us{
+        width: 40%;
+        margin: 50px 5px 70px 32px;
+        font-size: 12px;
+    }
+    .follow-us{
+        position: relative;
+        top: -149px;
+    }
+    .footer-icons{
+        list-style: none;
+        line-height: 15px;
+    }
+    .socialmediaicon{
+        font-size: 15px;
+        padding: 6px;
+    }
+    .socialmediaicon.facebook{
+        font-size: 12px;
+        padding: 8px 10px 4px 10px;
+    }
+    .footer-main{
+        margin: 60px 0px 0px 0px;
+    }
+
+    .email{
+        width: 55%;
+        padding: 8px 0;
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    .button{
+        width: 25%;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .footer-end>p{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+}
+
+/* @media (min-width: 400px) and (max-width: 760px){} */
+@media (min-width: 400px) and (max-width: 760px){
+    .logo{
+        padding: 10px 30px;
+        font-size: 24px;
+}
+.menu{
+    float: none;
+    margin-top: 30px;
+}
+.menu>a{
+    padding: 2px;
+}
+.menu>a.btn-ph{
+    padding: 10px;
+    line-height: 10px;
+}
+
+.background-img{
+    padding: 100px 0;
+}
+.text-main>span{
+    font-size: 24px;
+}
+.text-main>h1{
+    font-size: 48px;
+}
+
+.about{
+    padding: 50px 10px 10px 10px;
+    margin: 0px 10px;
+}
+.about-img{
+    width: 40%;
+    float: left;
+}
+.about-img>img{
+    width: 95%;
+    height: 492px;
+}
+.about-data>span{
+    font-size: 22px;
+}
+.about-data>h1{
+    font-size: 30px;
+}
+.about-data>h4{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.icon1{
+    width: 48%;
+    padding: 37px 63px;
+    margin-right: 2px;
+}
+.icon2{
+    width: 48%;
+    padding: 37px 63px;
+}
+
+.services-box{
+    margin:30px 10px;
+}
+.sevices-box1{
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0px 20px 50px;     
+}
+.lord-icon{
+    position: relative;
+    right: 34px;
+    width: 83%;
+    height: 235px;
+}
+
+.pricing{
+    text-align: center;
+    margin: 0 5px 30px 5px;
+}
+.pricing-plans{
+    width: 48%;
+    margin-bottom: 45px;
+}
+.pricing-plans1{
+    width: 48%;
+    margin-bottom: 45px;
+}
+
+.background-img2{
+    padding: 50px 0;
+}
+.text-main2>h1{
+    font-size: 42px;
+}
+.text-main2>p{
+    padding: 25px 30px;
+}
+
+.team{
+    margin: 30px 10px 50px 10px;
+}
+.team>span{
+    font-size: 18px;
+    margin: 50px 0px;
+}
+.team>h1{
+    margin-bottom: 50px;
+}
+.team-member{
+    width: 30%;
+    display: inline-block; 
+    margin: 1px;
+}
+.team-member1{
+    width: 98%;
+}
+.team-member1>img{
+    height: 300px;
+}
+
+.team-icon{
+    width: 16%;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+.team-text{
+    padding: 20px;
+}
+.testimonial{
+    padding: 0px 0 50px 0;
+}
+.reviews{
+    margin: 5px 10px;
+}
+.reviews-content{
+    width:44%;
+    margin: 0px 20px 0px 22px;
+}
+.reviews-content>img{
+    position: relative;
+    top: 55px;
+    left: 112px;
+    
+}
+.reviews-data{
+    padding: 55px 45px;
+}
+
+.blogs-data{
+    margin: 0px;
+}
+.main-blogs{
+    margin: 40px 20px 40px 65px;
+}
+.blog-posts{
+    margin-right: 15px;
+}
+.blog-content{
+    padding: 20px 20px;
+}
+.blog-content>h2{
+    font-size: 22px;
+}
+
+.footer-main{
+    margin: 10px 10px 10px 40px;
+    font-size: 14px;
+}
+.quick-link, .popular-link, .get-in-touch, .follow-us{
+    margin: 50px 8px;
+}
+.get-in-touch{
+    position: relative;
+    top: -72px;
+}
+.follow-us{
+    position: relative;
+    top: -155px;
+}
+.follow-us > h1 {
+    font-size: 31px;
+    font-weight: 600;
+}
+.socialmediaicon{
+    font-size: 15px;
+    padding: 2px 8px 2px 8px;
+}
+.socialmediaicon.facebook {
+    font-size: 16px;
+    padding: 2px 11px 2px 11px;
+}
+
+.email{
+    width: 65%;
+    padding: 20px 0;
+    padding-left: 20px;
+}
+.button {
+    width: 20%;
+    padding: 22px 0;
+}
+}
+
+/* @media (min-width: 760px) and (max-width: 1250px){} */
+@media (min-width: 760px) and (max-width: 1250px){
+    .reviews {
+        margin: 5px 10px 5px 85px;
+    }
+    .reviews-content{
+        margin: 5px;
+    }
+
+    .footer-main{
+        margin: 60px 60px 0px 60px;
+    }
+    .quick-link, .popular-link, .get-in-touch, .follow-us{
+        margin: 50px 26px;
+    }
+    .follow-us{
+        position: relative;
+        top: -158px;
+    }
+}
