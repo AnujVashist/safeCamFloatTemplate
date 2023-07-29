@@ -27,6 +27,7 @@
         text-align: center;
     
     }
+    /* main-start*/
     .background-img{
         padding: 80px 0;
     }
@@ -40,6 +41,8 @@
     .button1{
         margin-right: 10px;
     }
+
+    /* about */
     .about{
         padding: 5px 3px;
     }
@@ -73,6 +76,7 @@
         width: 100%;
     }
 
+    /* services */
     .container{
         padding: 50px 0 30px 0 ;
     }
@@ -187,17 +191,27 @@
     }
 
     .footer-main{
-        margin: 1px;
+        margin: 1px !important;
         height: 400px;
     }
-    .quick-link, .popular-link, .get-in-touch, .follow-us{
+    .popular-link,.follow-us{
         width: 40%;
-        margin: 50px 5px 70px 32px;
+        margin: 5px !important;
         font-size: 12px;
+        float: right;
+        top: 36px;
+    }
+    .quick-link, .get-in-touch{
+        width: 40%;
+        margin: 5px !important;
+        font-size: 12px;
+        float: left;
+        top: 36px;
+        
     }
     .follow-us{
         position: relative;
-        top: -149px;
+        top: 8px;
     }
     .footer-icons{
         list-style: none;
@@ -233,228 +247,451 @@
     }
 }
 
-/* @media (min-width: 400px) and (max-width: 760px){} */
-@media (min-width: 400px) and (max-width: 760px){
-    .logo{
-        padding: 10px 30px;
-        font-size: 24px;
-}
-.menu{
-    float: none;
-    margin-top: 30px;
-}
-.menu>a{
-    padding: 2px;
-}
-.menu>a.btn-ph{
-    padding: 10px;
-    line-height: 10px;
-}
-
-.background-img{
-    padding: 100px 0;
-}
-.text-main>span{
-    font-size: 24px;
-}
-.text-main>h1{
-    font-size: 48px;
-}
-
-.about{
-    padding: 50px 10px 10px 10px;
-    margin: 0px 10px;
-}
-.about-img{
-    width: 40%;
-    float: left;
-}
-.about-img>img{
-    width: 95%;
-    height: 492px;
-}
-.about-data>span{
-    font-size: 22px;
-}
-.about-data>h1{
-    font-size: 30px;
-}
-.about-data>h4{
-    font-size: 20px;
-    padding: 20px 0;
-}
-.icon1{
-    width: 48%;
-    padding: 37px 63px;
-    margin-right: 2px;
-}
-.icon2{
-    width: 48%;
-    padding: 37px 63px;
-}
-
-.services-box{
-    margin:30px 10px;
-}
-.sevices-box1{
-    width: 40%;
-    display: inline-block;
-    padding: 10px;
-    margin: 20px 0px 20px 50px;     
-}
-.lord-icon{
-    position: relative;
-    right: 34px;
-    width: 83%;
-    height: 235px;
-}
-
-.pricing{
-    text-align: center;
-    margin: 0 5px 30px 5px;
-}
-.pricing-plans{
-    width: 48%;
-    margin-bottom: 45px;
-}
-.pricing-plans1{
-    width: 48%;
-    margin-bottom: 45px;
-}
-
-.background-img2{
-    padding: 50px 0;
-}
-.text-main2>h1{
-    font-size: 42px;
-}
-.text-main2>p{
-    padding: 25px 30px;
-}
-
-.team{
-    margin: 30px 10px 50px 10px;
-}
-.team>span{
-    font-size: 18px;
-    margin: 50px 0px;
-}
-.team>h1{
-    margin-bottom: 50px;
-}
-.team-member{
-    width: 30%;
-    display: inline-block; 
-    margin: 1px;
-}
-.team-member1{
-    width: 98%;
-}
-.team-member1>img{
-    height: 300px;
-}
-
-.team-icon{
-    width: 16%;
-    position: absolute;
-    top: 70px;
-    right: 0px;
-}
-.team-text{
-    padding: 20px;
-}
-.testimonial{
-    padding: 0px 0 50px 0;
-}
-.reviews{
-    margin: 5px 10px;
-}
-.reviews-content{
-    width:44%;
-    margin: 0px 20px 0px 22px;
-}
-.reviews-content>img{
-    position: relative;
-    top: 55px;
-    left: 112px;
-    
-}
-.reviews-data{
-    padding: 55px 45px;
-}
-
-.blogs-data{
-    margin: 0px;
-}
-.main-blogs{
-    margin: 40px 20px 40px 65px;
-}
-.blog-posts{
-    margin-right: 15px;
-}
-.blog-content{
-    padding: 20px 20px;
-}
-.blog-content>h2{
-    font-size: 22px;
-}
-
-.footer-main{
-    margin: 10px 10px 10px 40px;
-    font-size: 14px;
-}
-.quick-link, .popular-link, .get-in-touch, .follow-us{
-    margin: 50px 8px;
-}
-.get-in-touch{
-    position: relative;
-    top: -72px;
-}
-.follow-us{
-    position: relative;
-    top: -155px;
-}
-.follow-us > h1 {
-    font-size: 31px;
-    font-weight: 600;
-}
-.socialmediaicon{
-    font-size: 15px;
-    padding: 2px 8px 2px 8px;
-}
-.socialmediaicon.facebook {
-    font-size: 16px;
-    padding: 2px 11px 2px 11px;
-}
-
-.email{
-    width: 65%;
-    padding: 20px 0;
-    padding-left: 20px;
-}
-.button {
-    width: 20%;
-    padding: 22px 0;
-}
-}
-
-/* @media (min-width: 760px) and (max-width: 1250px){} */
-@media (min-width: 760px) and (max-width: 1250px){
-    .reviews {
-        margin: 5px 10px 5px 85px;
+/*very Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) and (max-width: 575.98px){
+    .menu {
+        float: right;
+        margin-top: 0px !important;
     }
-    .reviews-content{
+    .text-main > span {
+        font-size: 17px;
+    }
+    .button1 {
+        padding: 10px 17px !important;
+    }
+    .button2 {
+        padding: 10px 17px !important;
+    }
+    .reviews-content > img {
+        left: 106px !important;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)  and (max-width: 767.98px){
+    .logo {
+        float: left;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .menu {
+        float: right;
+        margin-top: 0px;
+    }
+    .menu > a {
+        padding: 0px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .menu > a.btn-ph {
+        background-color: #F14D5D;
+        padding: 40px;
+        line-height: 60px;
+        padding: 23px 20px 23px 20px;
+    }
+
+    .background-img {
+        padding: 120px 0;
+    }
+    .text-main > span {
+        font-size: 16px;
+    }
+    .text-main > h1 {
+        font-size: 36px;
+    }
+
+    .about {
+        padding: 70px 0px;
+        clear: both;
+        overflow: hidden;
+        margin: 20px 5px;
+    }
+
+    .about-data > span {
+        font-size: 16px;
+    }
+    .about-data > h1 {
+        font-size: 25px;
+    }
+    .about-data > h4 {
+        font-size: 16px;
+    }
+
+    .icon1 {
+        width: 48%;
+        background-color: #2878EB;
+        padding: 28px 66px 70px 65px;
+        display: inline-block;
+        text-align: center;
+        border-bottom: 5px solid #F14D5D;
+        margin: 0px;
+    }
+    .services-box {
+        margin: 30px 5px;
+    }
+    .sevices-box1 {
+        width: 30%;
+        display: inline-block;
+        background-color: #dddafd;
+        padding: 5px 6px;
         margin: 5px;
+        border-bottom: 5px solid #2878EB;
+    }
+    .sevices-box1 > h3 {
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .lord-icon {
+        position: relative;
+        right: -8px;
+        width: 85%;
+        height: 150px;
     }
 
-    .footer-main{
-        margin: 60px 60px 0px 60px;
+    .pricing {
+        text-align: center;
+        margin: 0 0px 60px 0px;
     }
-    .quick-link, .popular-link, .get-in-touch, .follow-us{
-        margin: 50px 26px;
+    .pricing-plans {
+        margin-right: 3px;
     }
-    .follow-us{
+    .text-main2 > h1 {
+        font-size: 29px;
+    }
+    .text-main2 > p {
+        font-size: 11px;
+    }
+    .background-img2 {
+        padding: 25px 0;
+    }
+    .team {
+        text-align: center;
+        margin: 1px;
+    }
+    .team-member {
+        width: 30%;
+        display: inline-block;
+        margin: 6px;
+    }
+    .team-icon {
+        width: 18%;
+        position: absolute;
+        top: 90px;
+        right: 3px;
+    }
+    .reviews-content {
+        margin: 7px;
+    }
+    .reviews-data {
+        padding: 65px 10px;
+    }
+    .reviews-data1 {
+        padding: 65px 10px;
+    }
+    .reviews-content > img {
+        border-style: none;
+        border-radius: 100%;
+        position: relative;
+        top: 58px;
+        left: 56px;
+        width: 30%;
+    }
+    .main-blogs {
+        margin: 40px 0px 40px 30px;
+    }
+
+    .blog-posts {
+        margin-right: 19px;
+    }
+    .blog-content > h2 {
+        font-size: 19px;
+    }
+    .footer-main {
+        margin: 0px;
+    }
+
+    .get-in-touch {
+        position: relative;
+        top: -40px;
+    }
+
+    .follow-us {
+        position: relative;
+        top: -100px;
+    }
+    .email {
+        width: 45%;
+        padding: 10px 0;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .button {
+        padding: 11px 0;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+and (max-width: 991.98px){
+    .logo {
+        float: left;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .menu {
+        float: right;
+        margin-top: 0px;
+    }
+    .menu > a {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .menu > a.btn-ph {
+        background-color: #F14D5D;
+        padding: 40px;
+        line-height: 60px;
+        padding: 23px 20px 23px 20px;
+    }
+
+    .background-img {
+        padding: 120px 0;
+    }
+    .text-main > span {
+        font-size: 16px;
+    }
+    .text-main > h1 {
+        font-size: 36px;
+    }
+
+    .about {
+        padding: 70px 0px;
+        clear: both;
+        overflow: hidden;
+        margin: 20px 5px;
+    }
+
+    .about-data > span {
+        font-size: 16px;
+    }
+    .about-data > h1 {
+        font-size: 25px;
+    }
+    .about-data > h4 {
+        font-size: 16px;
+    }
+
+    .icon1 {
+        width: 48%;
+        padding: 28px 66px 70px 65px;
+        margin: 0px;
+    }
+    .icon2 {
+        width: 48%;
+        padding: 28px 66px 70px 65px;
+        margin: 0px;
+    }
+    .services-box {
+        margin: 30px 5px;
+    }
+    .sevices-box1 {
+        width: 30%;
+        display: inline-block;
+        background-color: #dddafd;
+        padding: 5px 6px;
+        margin: 5px;
+        border-bottom: 5px solid #2878EB;
+    }
+    .sevices-box1 > h3 {
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .lord-icon {
+        position: relative;
+        right: -8px;
+        width: 85%;
+        height: 150px;
+    }
+
+    .pricing {
+        text-align: center;
+        margin: 0 0px 60px 0px;
+    }
+    .pricing-plans {
+        margin-right: 3px;
+    }
+    .text-main2 > h1 {
+        font-size: 29px;
+    }
+    .text-main2 > p {
+        font-size: 11px;
+    }
+    .background-img2 {
+        padding: 25px 0;
+    }
+    .team {
+        text-align: center;
+        margin: 1px;
+    }
+    .team-member {
+        width: 30%;
+        display: inline-block;
+        margin: 6px;
+    }
+    .team-icon {
+        width: 18%;
+        position: absolute;
+        top: 90px;
+        right: 3px;
+    }
+    .reviews-content {
+        margin: 7px;
+    }
+    .reviews-data {
+        padding: 65px 10px;
+    }
+    .reviews-data1 {
+        padding: 65px 10px;
+    }
+    .reviews-content > img {
+        border-style: none;
+        border-radius: 100%;
+        position: relative;
+        top: 58px;
+        left: 56px;
+        width: 30%;
+    }
+    .main-blogs {
+        margin: 40px 0px 40px 30px;
+    }
+
+    .blog-posts {
+        margin-right: 19px;
+    }
+    .blog-content > h2 {
+        font-size: 19px;
+    }
+    .footer-main {
+        margin: 0px;
+    }
+
+    .get-in-touch {
+        position: relative;
+        top: -40px;
+    }
+
+    .follow-us {
+        position: relative;
+        top: -100px;
+    }
+    .email {
+        width: 45%;
+        padding: 10px 0;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .button {
+        padding: 11px 0;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .text-main > span {
+        font-size: 21px;
+        font-weight: 400;
+    }
+    .text-main > h1 {
+        font-size: 50px;
+    }
+    .background-img {
+        padding: 67px 0;
+    }
+    .about {
+        padding: 70px 0px;
+    }
+    .about-data > h1 {
+        font-size: 40px;
+    }
+    .services-box {
+        margin: 30px 0px;
+    }
+    .team {
+        margin: 25px;
+    }
+    .team-member {
+        margin: 10px;
+    }
+    .team-icon {
+        width: 14%;
+        position: absolute;
+        top: 78px;
+        right: 6px;
+        background-color: #ffffff;
+    }
+    .reviews-content {
+        margin: 13px;
+    }
+    .reviews-content > img {
+        left: 99px;
+    }
+    .reviews-data {
+        padding: 65px 53px;
+    }
+    .reviews-data1 {
+        padding: 65px 53px;
+    }
+    .footer-main {
+        margin: 8px;
+    }
+    .quick-link, .popular-link, .get-in-touch, .follow-us {
+        margin: 50px 21px;
+        font-size: 14px;
+    }
+    .get-in-touch {
+        position: relative;
+        top: -108px;
+    }
+
+    .follow-us {
         position: relative;
         top: -158px;
     }
+    .email {
+        width: 45%;
+        padding: 10px 0;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .button {
+        padding: 11px 0;
+    }
+    
 }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .about-data > h1 {
+        font-size: 46px;
+    }
+    .icon2 {
+        padding: 72px 65px 70px 65px;
+    }
+    .team {
+        text-align: center;
+        margin: 60px;
+    }
+    .reviews-content {
+        width: 30%;
+        display: inline-block;
+        margin: 15px;
+    }
+    .reviews-content > img {
+        left: 117px;
+    }
+    .footer-main {
+        margin: 0px;
+    }
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
